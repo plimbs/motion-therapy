@@ -1,0 +1,42 @@
+!!!5
+html
+  head
+    title #{title} - My Site
+    meta(name='viewport', content='initial-scale = 1.0,maximum-scale = 1.0')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Muli:300', rel='stylesheet' type='text/css')
+
+    // Stylesheets
+    block styles
+      //if lt IE 8
+        link(rel='stylesheet', href='/stylesheets/index-ie7.css')
+      //if IE 8
+        link(rel='stylesheet', href='/stylesheets/index-ie8.css')
+      <!--[if !IE]><!-->
+      link(rel='stylesheet', href='/stylesheets/index.css')
+      <!--<![endif]-->
+
+  body
+    header#top-bar
+      include main-navigation
+    .container
+      .main-content
+        block content
+  include footer
+
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+script(src='/js/modernizr.custom.js')
+script(src='/js/grid.js')
+script.
+  $(function() {
+    Grid.init();
+    $("#mobile-navigation").hide();
+    $(".m-toggle").click(function() {
+      $("#mobile-navigation").slideToggle(500);
+      });
+    $("footer").hover(function () {
+      $(".slide").slideToggle("slow");
+      });
+  });
+

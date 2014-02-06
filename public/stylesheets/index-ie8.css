@@ -1,0 +1,32 @@
+.site-title {
+  background-color: #ffffff;
+}
+
+.site-title h1 {
+  color: #000000;
+  padding: 20px;
+}
+
+
+#nav {
+  width:100%;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+#nav li {
+  float:left;
+  margin-left: 20px;
+}
+
+#nav li a {
+  color: #000;
+}
+
+.container {
+  margin-top: 0;
+}
+
+.profile-container {
+  padding: 0px 30px 23px;
+}

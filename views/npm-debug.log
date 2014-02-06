@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'fix-jade', '‐g' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'fix-jade', null ]
+6 verbose cache add name=undefined spec="fix-jade" args=["fix-jade",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'fix-jade',
+7 verbose parsed url   path: 'fix-jade',
+7 verbose parsed url   href: 'fix-jade' }
+8 verbose cache add [ '‐g', null ]
+9 verbose cache add name=undefined spec="‐g" args=["‐g",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '‐g',
+10 verbose parsed url   path: '‐g',
+10 verbose parsed url   href: '‐g' }
+11 silly lockFile 7eb037e4-fix-jade fix-jade
+12 verbose lock fix-jade /Users/plimb/.npm/7eb037e4-fix-jade.lock
+13 silly lockFile a9e76738-g ‐g
+14 verbose lock ‐g /Users/plimb/.npm/a9e76738-g.lock
+15 silly lockFile 7eb037e4-fix-jade fix-jade
+16 silly lockFile 7eb037e4-fix-jade fix-jade
+17 verbose addNamed [ 'fix-jade', '' ]
+18 verbose addNamed [ null, '*' ]
+19 silly lockFile 009b48ba-fix-jade fix-jade@
+20 verbose lock fix-jade@ /Users/plimb/.npm/009b48ba-fix-jade.lock
+21 silly lockFile a9e76738-g ‐g
+22 silly lockFile a9e76738-g ‐g
+23 verbose addNamed [ '‐g', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 639ade49-g ‐g@
+26 verbose lock ‐g@ /Users/plimb/.npm/639ade49-g.lock
+27 silly addNameRange { name: 'fix-jade', range: '*', hasData: false }
+28 silly addNameRange { name: '‐g', range: '*', hasData: false }
+29 verbose url raw fix-jade
+30 verbose url resolving [ 'https://registry.npmjs.org/', './fix-jade' ]
+31 verbose url resolved https://registry.npmjs.org/fix-jade
+32 info trying registry request attempt 1 at 11:50:52
+33 http GET https://registry.npmjs.org/fix-jade
+34 verbose url raw ‐g
+35 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%90g' ]
+36 verbose url resolved https://registry.npmjs.org/%E2%80%90g
+37 info trying registry request attempt 1 at 11:50:52
+38 http GET https://registry.npmjs.org/%E2%80%90g
+39 http 404 https://registry.npmjs.org/%E2%80%90g
+40 silly registry.get cb [ 404,
+40 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+40 silly registry.get     date: 'Thu, 12 Dec 2013 11:50:51 GMT',
+40 silly registry.get     'content-type': 'application/json',
+40 silly registry.get     'content-length': '52',
+40 silly registry.get     'cache-control': 'must-revalidate' } ]
+41 silly lockFile 639ade49-g ‐g@
+42 silly lockFile 639ade49-g ‐g@
+43 error 404 '%E2%80%90g' is not in the npm registry.
+43 error 404 You should bug the author to publish it
+43 error 404
+43 error 404 Note that you can also install from a
+43 error 404 tarball, folder, or http url, or git url.
+44 error System Darwin 12.5.0
+45 error command "node" "/usr/local/bin/npm" "install" "fix-jade" "‐g"
+46 error cwd /Users/plimb/Desktop/University/Personal-portfolio/webpage-personal/views
+47 error node -v v0.10.21
+48 error npm -v 1.3.11
+49 error code E404
+50 verbose exit [ 1, true ]

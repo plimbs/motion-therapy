@@ -1,0 +1,76 @@
+//
+// Main-navigation styles
+//
+
+#top-bar
+  position fixed
+  width 100%
+  top 0
+  padding 0
+  z-index 1
+  display inline-block
+  &:before
+    content ''
+    display table
+  &:after
+    clear both
+
+nav
+  display block
+
+.main-nav
+  #nav
+    float left
+    padding 15px 0
+    margin-left 35px
+    li
+      display inline-block
+      position relative
+      margin-right 24px
+      line-height 25px
+      a
+        text-decoration none
+        text-transform uppercase
+        font-size 16px
+        color $colorSecondary
+        font-weight 700
+        padding 5px
+        &:hover
+          color #fff
+          background-color #000
+          box-sizing border-box
+
+#mobile-nav
+  display none
+
+// Mobile & Tablet Breakpoint
+
+@media only screen and (max-width: 640px)
+  .main-nav
+    display none
+
+  #nav-toggle
+    padding 20px 0
+    a
+      text-transform uppercase
+      font-size 16px
+      color $colorPrimary
+
+  #mobile-nav
+    display block
+    background-color #000
+    #mobile-navigation
+      cursor pointer
+      padding 20px 0
+      margin-top -20px
+      width 100%
+      text-align center
+      ul
+        li
+          padding 10px 0
+          a
+            text-transform uppercase
+            font-size 16px
+            color $colorPrimary
+
+
