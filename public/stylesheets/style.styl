@@ -3,9 +3,7 @@
  */
 @import 'nib'
 @import 'settings'
-@import 'profile'
 @import 'fonts'
-@import 'layout/grid'
 @import 'layout/main-header'
 @import 'layout/main-navigation'
 @import 'layout/main-footer'
@@ -29,47 +27,5 @@ global-reset()
 main-color = #fa5b4d
 background-color = #faf9f0
 
-body
-  font-family $baseFontFamily
-  background-color $baseBackgroundColor
-  color #444
-  position relative
-  z-index 0
 
-header
-  font-family $headingFontFamily
-  padding 50px 10px
-  color #fff
-  font-size 25px
-  text-align center
-
-  /*
-   * Note the use of the `main-color`
-   * variable and the `darken` function
-   */
-  background-color #fff
-  border-bottom 1px solid black
-  // text-shadow 0px -1px 0px darken(main-color, 30%)
-
-.container
-  width 100%
-  margin 55px 0 0
-  z-index 0
-  position relative
-
-.main
-  z-index 1
-  position relative
-
-.caption
-  display none
-  position absolute
-  top 0
-  left 0
-  width 100%
-  height 100%
-
-.caption h3, .caption p
-  color #fff
-  margin 20px
 

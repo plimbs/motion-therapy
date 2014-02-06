@@ -28,16 +28,16 @@ app.get('/', function (req, res) {
   )
 })
 
-app.get('/profile', function (req, res) {
-  res.render('profile',
-  { title : 'Profile' }
-  )
-})
+// app.get('/profile', function (req, res) {
+//   res.render('profile',
+//   { title : 'Profile' }
+//   )
+// })
 
-app.get('/misc', function (req, res) {
-  res.render('misc',
-  { title : 'Misc' }
-  )
+// app.get('/misc', function (req, res) {
+//   res.render('misc',
+//   { title : 'Misc' }
+//   )
 })
 
 app.listen(3000)
