@@ -8,6 +8,33 @@
   font-weight: normal;
   font-style: normal;
 }
+header .header-wrapper {
+  width: 80%;
+  float: left;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+header .header-wrapper h1 {
+  font-size: 2.9em;
+  font-family: 'Montserrat';
+  color: #000;
+  padding: 18px 0;
+  width: 354px;
+}
+nav {
+  float: right;
+  width: 20%;
+}
+nav li {
+  font-family: 'Montserrat';
+  font-size: 1em;
+  padding: 15px 0;
+  text-align: right;
+}
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
 /*
  * Grab a custom font from Google
  */
@@ -107,6 +134,10 @@ a img {
   border: none;
 }
 /*
- * Store the main color and
- * background color as variables
+ * Layout Styles
  */
+body {
+  width: 920px;
+  padding: 5em 20px 1.4em 20px;
+  margin: 0 auto;
+}
