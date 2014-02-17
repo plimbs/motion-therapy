@@ -8,43 +8,6 @@
   font-weight: normal;
   font-style: normal;
 }
-header .site-title {
-  display: block;
-  float: right;
-  padding: 15px 0;
-  max-width: 35%;
-  margin-right: 35px;
-}
-header .site-title h1 {
-  display: inline-block;
-  margin: 0;
-  text-align: right;
-  text-transform: uppercase;
-}
-header .site-title h1 a {
-  text-decoration: none;
-  font-size: 16px;
-  color: #000;
-  font-weight: 700;
-  padding: 5px;
-}
-header .site-title h1 a:hover {
-  color: #fff;
-  background-color: #000;
-}
-@media only screen and (max-width: 640px) {
-  header .site-title {
-    float: none;
-    padding: 25px 0 20px;
-    max-width: 100%;
-    text-align: center;
-    margin-right: 0;
-    clear: both;
-  }
-  header .site-title h1 {
-    text-align: center;
-  }
-}
 /*
  * Grab a custom font from Google
  */

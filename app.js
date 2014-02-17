@@ -38,6 +38,6 @@ app.get('/', function (req, res) {
 //   res.render('misc',
 //   { title : 'Misc' }
 //   )
-})
+// })
 
 app.listen(3000)
