@@ -8,13 +8,55 @@
   font-weight: normal;
   font-style: normal;
 }
-header .header-wrapper {
+.section {
+  width: 80%;
+  clear: both;
+}
+.heading-title {
+  clear: both;
+}
+.media {
+  width: 100%;
+  overflow: hidden;
+/* clearfix for floats inside the element */
+  padding: 40px 0;
+}
+.media .body p,
+.media .body h2 {
+  font-family: 'Montserrat';
+  font-size: 1em;
+  line-height: 1.6em;
+}
+.media .body h2 {
+  font-size: 1.4em;
+  margin: 20px 0;
+}
+.media .body .introduction {
+  padding: 70px 0 0;
+  line-height: 2em;
+}
+.media .img {
+  float: left;
+  margin-right: 20px;
+}
+.media .img img {
+  display: block;
+}
+.media-alt .img {
+  float: right;
+  margin-right: 0;
+  margin-left: 20px;
+}
+header {
+  clear: both;
+}
+.header-content {
   width: 80%;
   float: left;
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
 }
-header .header-wrapper h1 {
+.header-content h1 {
   font-size: 2.9em;
   font-family: 'Montserrat';
   color: #000;
@@ -25,15 +67,22 @@ nav {
   float: right;
   width: 20%;
 }
-nav li {
+nav ul {
+  position: fixed;
+  width: 20%;
+}
+nav ul li {
   font-family: 'Montserrat';
   font-size: 1em;
   padding: 15px 0;
   text-align: right;
 }
-nav li a {
+nav ul li a {
   text-decoration: none;
   color: #000;
+}
+nav ul li a:hover {
+  color: #3e8a41;
 }
 /*
  * Grab a custom font from Google
@@ -140,4 +189,7 @@ body {
   width: 920px;
   padding: 5em 20px 1.4em 20px;
   margin: 0 auto;
+}
+.main-content {
+  clear: both;
 }
