@@ -1,0 +1,40 @@
+// section styles
+
+.section
+  width 80%
+  clear both
+
+.heading-title
+  clear both
+
+// media block styles
+
+//img on the left
+
+.media
+  width 100%
+  overflow hidden /* clearfix for floats inside the element */
+  padding 40px 0
+  .body
+    p, h2
+      font-family $baseFontFamily
+      font-size $baseFontSize
+      line-height $baseLineHeight
+    h2
+      font-size 1.4em
+      margin 20px 0
+    .introduction
+      padding 70px 0 0
+      line-height 2em
+  .img
+    float left
+    margin-right 20px
+  .img img
+    display block
+
+//img on the right
+
+.media-alt .img
+  float right
+  margin-right 0
+  margin-left 20px
