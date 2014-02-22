@@ -5,11 +5,16 @@
 nav
   float right
   width 20%
-  li
-    font-family $baseFontFamily
-    font-size $baseFontSize
-    padding 15px 0
-    text-align right
-    a
-      text-decoration none
-      color $baseFontColor
+  ul
+    position fixed
+    width 20%
+    li
+      font-family $baseFontFamily
+      font-size $baseFontSize
+      padding 15px 0
+      text-align right
+      a
+        text-decoration none
+        color $baseFontColor
+        &:hover
+          color $colorSecondary
