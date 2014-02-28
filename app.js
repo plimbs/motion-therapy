@@ -28,11 +28,11 @@ app.get('/', function (req, res) {
   )
 })
 
-// app.get('/profile', function (req, res) {
-//   res.render('profile',
-//   { title : 'Profile' }
-//   )
-// })
+app.get('/hand', function (req, res) {
+  res.render('hand',
+  { title : 'hand' }
+  )
+})
 
 // app.get('/misc', function (req, res) {
 //   res.render('misc',
