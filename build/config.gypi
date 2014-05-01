@@ -29,7 +29,7 @@
     "v8_enable_gdbjit": 0,
     "v8_no_strict_aliasing": 1,
     "v8_use_snapshot": "false",
-    "nodedir": "/Users/plimb/.node-gyp/0.10.21",
+    "nodedir": "/Users/plimb/.node-gyp/0.10.26",
     "copy_dev_lib": "true",
     "standalone_static_library": 1
   }
