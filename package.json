@@ -8,4 +8,8 @@
     "stylus": "*",
     "nib": "*",
   }
+  "repository": {
+  "type": "git",
+  "url": "git@heroku.com:motion-therapy.git"
+  }
 }
