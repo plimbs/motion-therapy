@@ -1,1 +1,26 @@
-canvas#canvas
+extend layout
+block content
+  header
+    .header-content.hand-therapy
+      h1 Sprained Finger Exercise
+  canvas#canvas
+  section.counter
+    .media
+      .body
+        h2 Count
+        p Exercise completed  
+          span#count 0
+          | out of 10
+  section.instructions
+    .media
+      .body
+        h2 Instructions
+        p Curl fingers round to make a
+          | fist and then fully straighten.
+  footer.application-footer
+    p copyright of @motiontherapy
+
+  script(src='http://code.jquery.com/jquery-1.11.0.min.js')
+  script(src='http://js.leapmotion.com/0.2.2/leap.min.js')
+  script(src='/js/hand.js')
+

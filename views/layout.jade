@@ -4,6 +4,8 @@ html
     title #{title} - Motion Therapy
     meta(name='viewport', content='initial-scale = 1.0,maximum-scale = 1.0')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='icon', type='image/x-icon', href='images/favicon.ico')
+    link(rel='shortcut icon', type='image/x-icon', href='images/favicon.ico')
     link(href='http://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Muli:300', rel='stylesheet' type='text/css')
 
@@ -18,15 +20,16 @@ html
       <!--<![endif]-->
 
   body
-    header
-      .header-content
-        h1 We are Motion Therapy
-      include main-navigation
     .main-content
       block content
-  include footer
 
-script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+
+script(src='http://code.jquery.com/jquery-1.11.0.min.js')
+script(src='/js/smooth-scroll.js')
+script(src='/js/scrollTo.js')
 script(src='/js/modernizr.custom.js')
+script(src='http://js.leapmotion.com/0.2.2/leap.min.js')
+
+
 
 

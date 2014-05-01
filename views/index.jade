@@ -1,25 +1,39 @@
 extend layout
 block content
-  .section
-    .media.media-alt
-      img.img(src="images/motion-therapy.png")
-      .body
-        p.introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non urna ut dui sodales fringilla. Morbi id dignissim velit, et adipiscing nulla.
+  header
+    .header-content#about
+      h1 We are Motion Therapy
+    include main-navigation
+    .section
+      .media.media-alt
+        img.img.hand-logo(src="images/motion-therapy.svg")
+        .body
+          p.introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non urna ut dui sodales fringilla. Morbi id dignissim velit, et adipiscing nulla.
 
-  .header-content
-    h1 Hand Therapy Exercises
-  .section
-    .media
-      img.img(src="http://dummyimage.com/350x250/000/fff.png&text=380+x+250")
-      .body
-        h2 Dummy Text
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non urna ut dui sodales fringilla. Morbi id dignissim velit, et adipiscing
-    .media.media-alt
-      img.img(src="http://dummyimage.com/350x250/000/fff.png&text=380+x+250")
-      .body
-        h2 Dummy Text
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non urna ut dui sodales fringilla. Morbi id dignissim velit, et adipiscing
-
+    .header-content#hand
+      h1 Hand Therapy Exercises
+    .section
+      .media
+        img.img(src="images/finger-image.png")
+        .body
+          a(href='/hand')
+            h2.title Sprained Finger Exercise
+          p The following exercise is to be completed by those who are recovering from a Colles fracture. To enter the application click on the title.
+      .media.media-alt
+        img.img(src="images/finger-image.svg")
+        .body
+          a(href='/hand-2')
+            h2 Shoulder Exercise
+          p The following exercise is to be completed by those who are suffereing from a Shoulder injury. To enter the application click on the title.
+    .header-content#contact
+      h1 Contact
+    .section
+      .media
+        .body
+          a(href='')
+            h2.title Contact
+          p Feel free to contact us by Email if you have any questions about the prototypes above.
+    include footer
 
 
 

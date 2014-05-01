@@ -1,0 +1,18 @@
+extend layout
+block content
+  header
+    .header-content.hand-therapy
+      h1 Shoulder Exercise
+  canvas#canvas
+  section.instructions.instructions-shoulder
+    .media
+      .body
+        h2 Instructions
+        p Hold your arm out straight and move your arm up and down watching the hand move with you.
+  footer.application-footer
+    p copyright of @motiontherapy
+
+  script(src='http://code.jquery.com/jquery-1.11.0.min.js')
+  script(src='http://js.leapmotion.com/0.2.2/leap.min.js')
+  script(src='/js/hand-2.js')
+

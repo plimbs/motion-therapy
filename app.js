@@ -34,10 +34,10 @@ app.get('/hand', function (req, res) {
   )
 })
 
-// app.get('/misc', function (req, res) {
-//   res.render('misc',
-//   { title : 'Misc' }
-//   )
-// })
+app.get('/hand-2', function (req, res) {
+  res.render('hand-2',
+  { title : 'hand-2' }
+  )
+})
 
 app.listen(3000)
