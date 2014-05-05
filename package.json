@@ -8,10 +8,18 @@
     "stylus": "*",
     "nib": "*"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "author": "Sophie-Plimbley",
+  "license": "ISC",
   "engines": {
     "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:stormy-brushlands-6191.git"
   }
 }
