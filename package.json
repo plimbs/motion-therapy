@@ -7,5 +7,11 @@
     "jade": "*",
     "stylus": "*",
     "nib": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
