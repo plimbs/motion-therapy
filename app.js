@@ -40,4 +40,4 @@ app.get('/hand-2', function (req, res) {
   )
 })
 
-app.listen(port)
+app.listen(3000)

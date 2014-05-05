@@ -14,7 +14,6 @@
     "start": "node server.js"
   },
   "author": "Sophie-Plimbley",
-  "license": "ISC",
   "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
